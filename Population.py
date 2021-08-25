@@ -11,6 +11,6 @@
 Формат выходных данных
 Программа должна вывести одно число – количество выживших.
 '''
-summ = int(input())
-population = summ - summ // 2
-print(population)
+population = int(input())
+destroy = population - population // 2
+print(destroy)
