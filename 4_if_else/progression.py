@@ -24,7 +24,7 @@ b = int(input())
 c = int(input())
 num = (b - a) + b
 if num == c:
-    print('+')
+    print('YES')
 else:
-    print('-')
+    print('NO')
  
