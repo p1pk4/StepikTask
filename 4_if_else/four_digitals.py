@@ -11,12 +11,17 @@ a = int(input())
 b = int(input())
 c = int(input())
 d = int(input())
-
-if a < b < c < d:
-    print(a)
-elif b < a < c < d:
-    print(b)
-elif c < a < b < d:
-    print(c)
+if a < b:
+    low = a
 else:
-    print(d)
+    low = b
+# print(low)
+if c < d:
+    lower = c
+else:
+    lower = d
+# print(lower)
+if low < lower:
+    print(low)
+else:
+    print(lower)
