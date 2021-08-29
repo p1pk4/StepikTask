@@ -9,3 +9,9 @@
 Программа должна вывести текст в соответствии с условием задачи.
 '''
 num = int(input())
+first_digit = -3
+last_digit = 7
+if num <= first_digit or num >= last_digit:
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
