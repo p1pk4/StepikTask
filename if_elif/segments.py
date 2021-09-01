@@ -66,7 +66,7 @@ elif a1 < a2 and (a2<b2<b1):
     print(a2, b2)
 elif a2 < a1 and (a1<b1<b2):
     print(a1,b1)
-
+    
 # если отрезки равны:
 elif a1==a2 and b2==b1:
     print(a1,b1)
