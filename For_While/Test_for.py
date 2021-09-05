@@ -9,7 +9,15 @@
 Программа должна вывести указанное текстовое предложение нужное количество раз. Каждое повторение должно начинаться с новой строки.
 '''
 
-proposal = input()
-repeat = int(input())
-for _ in range(repeat):
-    print(proposal)
+# proposal = input()
+# repeat = int(input())
+# for _ in range(repeat):
+#     print(proposal)
+
+a = int(input())
+b = int(input())
+
+summ = a + b
+summ /= 3
+print(summ)
+# if summ / 3
