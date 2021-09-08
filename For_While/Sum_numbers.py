@@ -21,6 +21,9 @@ while n > 0:
     if n == 0:
         break
 print(sum)
-        
 
-
+a = int(input())
+for i in range(0, a):
+    num1 = int(input())
+    sum += num1
+print(sum, 'd')
